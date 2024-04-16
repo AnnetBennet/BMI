@@ -1,7 +1,7 @@
 public class BmiService {
-    double calculate (double meters, double kilograms) {
+    double calculate(double meters, int kilograms) {
         double result;
         result = kilograms / (meters * meters);
-        return result;
+        return (int) result;
     }
 }
